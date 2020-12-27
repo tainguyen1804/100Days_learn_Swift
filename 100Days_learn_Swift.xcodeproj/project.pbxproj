@@ -1,0 +1,147 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXFileReference section */
+		D60C93AE259514000042D0DC /* For_loops.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = For_loops.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		D60C93B02597090D0042D0DC /* Functions.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Functions.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		D62BAD1F2593981F0090AA2E /* Operator overloading.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Operator overloading.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		D62BAD2025939B3D0090AA2E /* Compound assignment operators.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Compound assignment operators.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		D62BAD2125939D0A0090AA2E /* Comparison operators.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Comparison operators.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		D62BAD222593A3570090AA2E /* Conditions.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Conditions.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		D63628DB2598E0B30003FFA3 /* inout parameters.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "inout parameters.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		D644BB112590F36100E93C54 /* Day1_Var.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Day1_Var.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		D69A610A2590FE2000E4697A /* String_Integer.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = String_Integer.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		D69A610B259101CD00E4697A /* Multi_line.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Multi_line.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		D69A610C2591069F00E4697A /* Bool_double.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Bool_double.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		D69A610D259108B000E4697A /* String_interpolation.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = String_interpolation.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		D69A610E25910E3F00E4697A /* Type_Annotations.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Type_Annotations.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		D69A610F25910F9400E4697A /* Constants.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Constants.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		D6AF12C0259395E600C6A710 /* Operators.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Operators.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		D6DE9B24259258DA003DE347 /* Array.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Array.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		D6E48F9A2597A49100DB680D /* Variadic_and_Default_value_functions.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Variadic_and_Default_value_functions.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		D6E48F9B2597A70F00DB680D /* Writing throwing functions.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Writing throwing functions.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		D60C93AD25950D960042D0DC /* Day_4 */ = {
+			isa = PBXGroup;
+			children = (
+				D60C93AE259514000042D0DC /* For_loops.playground */,
+			);
+			path = Day_4;
+			sourceTree = "<group>";
+		};
+		D60C93AF259708BA0042D0DC /* Day_5 */ = {
+			isa = PBXGroup;
+			children = (
+				D60C93B02597090D0042D0DC /* Functions.playground */,
+				D6E48F9A2597A49100DB680D /* Variadic_and_Default_value_functions.playground */,
+				D6E48F9B2597A70F00DB680D /* Writing throwing functions.playground */,
+				D63628DB2598E0B30003FFA3 /* inout parameters.playground */,
+			);
+			path = Day_5;
+			sourceTree = "<group>";
+		};
+		D644BB0A2590F0D900E93C54 = {
+			isa = PBXGroup;
+			children = (
+				D60C93AF259708BA0042D0DC /* Day_5 */,
+				D60C93AD25950D960042D0DC /* Day_4 */,
+				D6AF12BF2593956300C6A710 /* Day_3 */,
+				D6DE9B2325925300003DE347 /* Day_2 */,
+				D644BB122590F37100E93C54 /* Day_1 */,
+			);
+			sourceTree = "<group>";
+		};
+		D644BB122590F37100E93C54 /* Day_1 */ = {
+			isa = PBXGroup;
+			children = (
+				D644BB112590F36100E93C54 /* Day1_Var.playground */,
+				D69A610A2590FE2000E4697A /* String_Integer.playground */,
+				D69A610B259101CD00E4697A /* Multi_line.playground */,
+				D69A610C2591069F00E4697A /* Bool_double.playground */,
+				D69A610D259108B000E4697A /* String_interpolation.playground */,
+				D69A610E25910E3F00E4697A /* Type_Annotations.playground */,
+				D69A610F25910F9400E4697A /* Constants.playground */,
+			);
+			path = Day_1;
+			sourceTree = "<group>";
+		};
+		D6AF12BF2593956300C6A710 /* Day_3 */ = {
+			isa = PBXGroup;
+			children = (
+				D6AF12C0259395E600C6A710 /* Operators.playground */,
+				D62BAD1F2593981F0090AA2E /* Operator overloading.playground */,
+				D62BAD2025939B3D0090AA2E /* Compound assignment operators.playground */,
+				D62BAD2125939D0A0090AA2E /* Comparison operators.playground */,
+				D62BAD222593A3570090AA2E /* Conditions.playground */,
+			);
+			path = Day_3;
+			sourceTree = "<group>";
+		};
+		D6DE9B2325925300003DE347 /* Day_2 */ = {
+			isa = PBXGroup;
+			children = (
+				D6DE9B24259258DA003DE347 /* Array.playground */,
+			);
+			path = Day_2;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		D644BB0B2590F0D900E93C54 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1230;
+			};
+			buildConfigurationList = D644BB0E2590F0D900E93C54 /* Build configuration list for PBXProject "100Days_learn_Swift" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D644BB0A2590F0D900E93C54;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		D644BB0F2590F0D900E93C54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		D644BB102590F0D900E93C54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D644BB0E2590F0D900E93C54 /* Build configuration list for PBXProject "100Days_learn_Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D644BB0F2590F0D900E93C54 /* Debug */,
+				D644BB102590F0D900E93C54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D644BB0B2590F0D900E93C54 /* Project object */;
+}
